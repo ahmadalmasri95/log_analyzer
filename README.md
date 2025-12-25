@@ -25,6 +25,7 @@ Prepare your log file: Ensure you have a .log or .txt file containing standard L
 Run the script: 
 
 python log_analyzer.py
+
 Analyze the output: The script will display the total number of failures and a "Top 5 Attacking IPs" list.
 
 Sample Output
