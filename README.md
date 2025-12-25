@@ -1,8 +1,11 @@
 📝 Automated SSH Log Analyzer (SIEM Lite)
+
 Description
+
 A Python-based security tool designed to parse Linux authentication logs (/var/log/auth.log) to identify potential Brute Force attacks. This script automates the tedious process of manual log review by using Regular Expressions (Regex) to extract timestamps, targeted usernames, and source IP addresses.
 
 Key Features
+
 Regex Extraction: Utilizes complex capture groups to isolate Indicators of Compromise (IoCs).
 
 Frequency Analysis: Uses Python’s collections module to rank the most frequent attacking IP addresses.
@@ -12,9 +15,11 @@ Volume Identification: Provides a total count of failed login attempts to gauge 
 Robust Error Handling: Validates file existence before processing to prevent script crashes.
 
 Security Logic
+
 The script specifically looks for the "Failed password" pattern, which is the standard indicator of an unsuccessful login attempt in SSHD. By isolating the IP address, security teams can use this data to update Firewall or Fail2Ban rules.
 
 How to Use
+
 Prepare your log file: Ensure you have a .log or .txt file containing standard Linux auth logs.
 
 Run the script:
