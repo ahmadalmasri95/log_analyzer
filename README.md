@@ -6,13 +6,13 @@ A Python-based security tool designed to parse Linux authentication logs (/var/l
 
 Key Features
 
-Regex Extraction: Utilizes complex capture groups to isolate Indicators of Compromise (IoCs).
+1. Regex Extraction: Utilizes complex capture groups to isolate Indicators of Compromise (IoCs).
 
-Frequency Analysis: Uses Python’s collections module to rank the most frequent attacking IP addresses.
+2. Frequency Analysis: Uses Python’s collections module to rank the most frequent attacking IP addresses.
 
-Volume Identification: Provides a total count of failed login attempts to gauge the scale of the threat.
+3. Volume Identification: Provides a total count of failed login attempts to gauge the scale of the threat.
 
-Robust Error Handling: Validates file existence before processing to prevent script crashes.
+4. Robust Error Handling: Validates file existence before processing to prevent script crashes.
 
 Security Logic
 
@@ -22,11 +22,9 @@ How to Use
 
 Prepare your log file: Ensure you have a .log or .txt file containing standard Linux auth logs.
 
-Run the script:
+Run the script: 
 
-Bash
-
-python log_parser.py
+python log_analyzer.py
 Analyze the output: The script will display the total number of failures and a "Top 5 Attacking IPs" list.
 
 Sample Output
