@@ -1,0 +1,10 @@
+Dec 25 14:01:02 server1 sshd[1234]: Failed password for root from 192.168.1.50 port 54321 ssh2
+Dec 25 14:01:05 server1 sshd[1234]: Failed password for root from 192.168.1.50 port 54325 ssh2
+Dec 25 14:01:08 server1 sshd[1234]: Failed password for invalid user admin from 192.168.1.50 port 54330 ssh2
+Dec 25 14:02:10 server1 sshd[1235]: Failed password for root from 203.0.113.1 port 49152 ssh2
+Dec 25 14:02:12 server1 sshd[1235]: Failed password for root from 203.0.113.1 port 49153 ssh2
+Dec 25 14:03:15 server1 sshd[1236]: Failed password for invalid user guest from 172.16.0.5 port 33211 ssh2
+Dec 25 14:04:01 server1 sshd[1237]: Failed password for root from 192.168.1.50 port 54335 ssh2
+Dec 25 14:04:05 server1 sshd[1237]: Failed password for root from 192.168.1.50 port 54340 ssh2
+Dec 25 14:05:20 server1 sshd[1238]: Failed password for root from 10.0.0.15 port 51234 ssh2
+Dec 25 14:05:25 server1 sshd[1238]: Failed password for invalid user support from 10.0.0.15 port 51235 ssh2
